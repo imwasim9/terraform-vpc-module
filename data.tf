@@ -6,7 +6,7 @@ data "aws_availability_zones" "available" {
 #   value = aws_availability_zones.available
 # }
 
-data "aws_vpc" " default" {
+data "aws_vpc" "default" {
   default = true
 }
 
